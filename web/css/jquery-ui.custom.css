@@ -1,0 +1,78 @@
+.ui-widget-header {
+	background: rgb(21, 171, 255);
+}
+.ui-widget-content {
+	background: rgb(200, 200, 200) !important;
+}
+.ui-slider .ui-widget-header {
+	background: rgb(200, 200, 200);
+}
+.ui-progressbar {
+	height: 4px;
+}
+#ui-datepicker-div {
+	display: none;
+}
+.ui-datepicker ~ .ui-widget-content {
+	background: rgb(252, 253, 253); border: 1px solid rgb(102, 102, 102); border-image: none; color: rgb(34, 34, 34); z-index: 99;
+}
+.ui-datepicker .ui-widget-header {
+	background: rgb(102, 102, 102); border: 1px solid rgb(102, 102, 102); border-image: none; color: rgb(255, 255, 255); font-weight: bold;
+}
+.ui-datepicker-calendar .ui-state-default {
+	background: rgb(244, 244, 244) !important; border: 1px solid rgb(220, 220, 220) !important; border-image: none !important; color: rgb(75, 90, 104) !important; font-weight: 400;
+}
+.ui-datepicker-calendar .ui-widget-content .ui-state-default {
+	background: rgb(244, 244, 244) !important; border: 1px solid rgb(220, 220, 220) !important; border-image: none !important; color: rgb(75, 90, 104) !important; font-weight: 400;
+}
+.ui-datepicker-calendar .ui-widget-header .ui-state-default {
+	background: rgb(244, 244, 244) !important; border: 1px solid rgb(220, 220, 220) !important; border-image: none !important; color: rgb(75, 90, 104) !important; font-weight: 400;
+}
+.ui-corner-all {
+	border-top-left-radius: 0px; -moz-border-radius-topleft: 0px; -webkit-border-top-left-radius: 0px; -khtml-border-top-left-radius: 0px;
+}
+.ui-corner-top {
+	border-top-left-radius: 0px; -moz-border-radius-topleft: 0px; -webkit-border-top-left-radius: 0px; -khtml-border-top-left-radius: 0px;
+}
+.ui-corner-left {
+	border-top-left-radius: 0px; -moz-border-radius-topleft: 0px; -webkit-border-top-left-radius: 0px; -khtml-border-top-left-radius: 0px;
+}
+.ui-corner-tl {
+	border-top-left-radius: 0px; -moz-border-radius-topleft: 0px; -webkit-border-top-left-radius: 0px; -khtml-border-top-left-radius: 0px;
+}
+.ui-corner-all {
+	border-top-right-radius: 0px; -moz-border-radius-topright: 0px; -webkit-border-top-right-radius: 0px; -khtml-border-top-right-radius: 0px;
+}
+.ui-corner-top {
+	border-top-right-radius: 0px; -moz-border-radius-topright: 0px; -webkit-border-top-right-radius: 0px; -khtml-border-top-right-radius: 0px;
+}
+.ui-corner-right {
+	border-top-right-radius: 0px; -moz-border-radius-topright: 0px; -webkit-border-top-right-radius: 0px; -khtml-border-top-right-radius: 0px;
+}
+.ui-corner-tr {
+	border-top-right-radius: 0px; -moz-border-radius-topright: 0px; -webkit-border-top-right-radius: 0px; -khtml-border-top-right-radius: 0px;
+}
+.ui-corner-all {
+	border-bottom-left-radius: 0px; -moz-border-radius-bottomleft: 0px; -webkit-border-bottom-left-radius: 0px; -khtml-border-bottom-left-radius: 0px;
+}
+.ui-corner-bottom {
+	border-bottom-left-radius: 0px; -moz-border-radius-bottomleft: 0px; -webkit-border-bottom-left-radius: 0px; -khtml-border-bottom-left-radius: 0px;
+}
+.ui-corner-left {
+	border-bottom-left-radius: 0px; -moz-border-radius-bottomleft: 0px; -webkit-border-bottom-left-radius: 0px; -khtml-border-bottom-left-radius: 0px;
+}
+.ui-corner-bl {
+	border-bottom-left-radius: 0px; -moz-border-radius-bottomleft: 0px; -webkit-border-bottom-left-radius: 0px; -khtml-border-bottom-left-radius: 0px;
+}
+.ui-corner-all {
+	border-bottom-right-radius: 0px; -moz-border-radius-bottomright: 0px; -webkit-border-bottom-right-radius: 0px; -khtml-border-bottom-right-radius: 0px;
+}
+.ui-corner-bottom {
+	border-bottom-right-radius: 0px; -moz-border-radius-bottomright: 0px; -webkit-border-bottom-right-radius: 0px; -khtml-border-bottom-right-radius: 0px;
+}
+.ui-corner-right {
+	border-bottom-right-radius: 0px; -moz-border-radius-bottomright: 0px; -webkit-border-bottom-right-radius: 0px; -khtml-border-bottom-right-radius: 0px;
+}
+.ui-corner-br {
+	border-bottom-right-radius: 0px; -moz-border-radius-bottomright: 0px; -webkit-border-bottom-right-radius: 0px; -khtml-border-bottom-right-radius: 0px;
+}

@@ -1,0 +1,213 @@
+.LightningMenuOver {
+	border: 1px solid rgb(0, 103, 166); border-image: none; height: 88px;
+}
+.LightningMenuOut {
+	border: 1px solid rgb(40, 40, 40); border-image: none;
+}
+.LightningMenuActonBackground {
+	border: 1px solid rgb(0, 103, 166); border-image: none; height: 88px; background-color: rgb(0, 103, 166);
+}
+.LightningMenuText {
+	top: -38px; width: 154px; height: 30px; text-align: center; color: rgb(160, 160, 160); line-height: 30px; font-family: Arial, Regular; font-size: 14pt; position: relative;
+}
+.LightningButtonFloatLeft {
+	float: left;
+}
+.LightningButtonAddAccount {
+	background: url("../images/button/ButtonVerticalListAddUsersUp.png?r=WDV1.01") no-repeat; width: 80px; height: 30px; cursor: pointer;
+}
+.LightningButtonAddAccount:hover {
+	background: url("../images/button/ButtonVerticalListAddUsersOver.png?r=WDV1.01") no-repeat;
+}
+.LightningButtonRemoveAccount {
+	background: url("../images/button/ButtonVerticalListRemoveUsersUp.png?r=WDV1.01") no-repeat; width: 80px; height: 30px; cursor: pointer;
+}
+.LightningButtonRemoveAccount:hover {
+	background: url("../images/button/ButtonVerticalListRemoveUsersOver.png?r=WDV1.01") no-repeat;
+}
+.LightningLabelButtonSecondary {
+	position: relative; cursor: pointer;
+}
+.gray_out {
+	left: 0px; cursor: text; opacity: 0.3;
+}
+.gray_out_80 {
+	left: 0px; top: 0px; cursor: text; opacity: 0.8;
+}
+.gray_out_50 {
+	left: 0px; top: 0px; cursor: text; opacity: 0.5;
+}
+.LightningLabelButtonLeftUp {
+	background: url("../images/button/ButtonSecondaryLeftUp.png?r=WDV1.01") no-repeat rgb(33, 33, 33); width: 24px; height: 30px; float: left;
+}
+.LightningLabelButtonBodyUp {
+	background: url("../images/button/ButtonSecondaryMiddleUp.png?r=WDV1.01") repeat-x rgb(33, 33, 33); height: 30px; text-align: center; color: rgb(210, 210, 210); line-height: 30px; font-family: Arial, Regular; font-size: 14px; float: left; display: inline-block;
+}
+.ButtonBodySize1 {
+	min-width: 40px;
+}
+.LightningLabelButtonRightUp {
+	background: url("../images/button/ButtonSecondaryRightUp.png?r=WDV1.01") no-repeat rgb(33, 33, 33); width: 24px; height: 30px; float: left;
+}
+.LightningLabelButtonLeftOver {
+	background: url("../images/button/ButtonSecondaryLeftOver.png?r=WDV1.01") no-repeat rgb(33, 33, 33); width: 24px; height: 30px; float: left;
+}
+.LightningLabelButtonBodyOver {
+	background: url("../images/button/ButtonSecondaryMiddleOver.png?r=WDV1.01") repeat-x rgb(33, 33, 33); text-align: center; line-height: 30px; font-size: 14px; float: left;
+}
+.LightningLabelButtonRightOver {
+	background: url("../images/button/ButtonSecondaryRightOver.png?r=WDV1.01") no-repeat rgb(33, 33, 33); width: 24px; height: 30px; float: left;
+}
+.LightningLabelButtonLeftDown {
+	background: url("../images/button/ButtonSecondaryLeftDown.png?r=WDV1.01") no-repeat; width: 24px; height: 30px; float: left;
+}
+.LightningLabelButtonBodyDown {
+	background: url("../images/button/ButtonSecondaryMiddleDown.png?r=WDV1.01") repeat-x; text-align: center; line-height: 30px; font-size: 14px; float: left;
+}
+.LightningLabelButtonRightDown {
+	background: url("../images/button/ButtonSecondaryRightDown.png?r=WDV1.01") no-repeat; width: 24px; height: 30px; float: left;
+}
+.bBody1 {
+	height: 30px; color: rgb(204, 204, 204); line-height: 30px; padding-right: 22px;
+}
+#f_type .bBody2 {
+	height: 30px; color: rgb(204, 204, 204); line-height: 30px; padding-left: 22px;
+}
+#f_direction .bBody2 {
+	height: 30px; color: rgb(204, 204, 204); line-height: 30px; padding-left: 22px;
+}
+#f_schedule_type .bBody2 {
+	height: 30px; color: rgb(204, 204, 204); line-height: 30px; padding-left: 22px;
+}
+#f_backup_now .bBody2 {
+	height: 30px; color: rgb(204, 204, 204); line-height: 30px; padding-left: 22px;
+}
+#f_backup_now2 .bBody2 {
+	height: 30px; color: rgb(204, 204, 204); line-height: 30px; padding-left: 22px;
+}
+#IPv4Mode .bBody2 {
+	height: 30px; color: rgb(204, 204, 204); line-height: 30px; padding-left: 22px;
+}
+#IPv6Mode .bBody2 {
+	height: 30px; color: rgb(204, 204, 204); line-height: 30px; padding-right: 22px; padding-left: 22px;
+}
+#s_type .bBody2 {
+	height: 30px; color: rgb(204, 204, 204); line-height: 30px; padding-right: 22px; padding-left: 22px;
+}
+#s_type .bBody3 {
+	height: 30px; color: rgb(204, 204, 204); line-height: 30px; padding-left: 22px;
+}
+#IPv6Mode .bBody3 {
+	height: 30px; color: rgb(204, 204, 204); line-height: 30px; padding-right: 22px; padding-left: 22px;
+}
+#IPv6Mode .bBody4 {
+	height: 30px; color: rgb(204, 204, 204); line-height: 30px; padding-left: 22px;
+}
+.VericalListButton {
+	width: 80px; height: 30px; cursor: pointer;
+}
+.VericalListButton2 {
+	width: 80px; height: 30px; cursor: pointer;
+}
+.LightningLabelButtonVericalListAddFolder {
+	background: url("../images/icon/tertiary_buttons.png?r=WDV1.01") no-repeat 0px 0px;
+}
+.LightningLabelButtonVericalListAddFolder:hover {
+	background: url("../images/icon/tertiary_buttons.png?r=WDV1.01") no-repeat 0px -30px;
+}
+.gray_out.LightningLabelButtonVericalListAddFolder:hover {
+	background: url("../images/icon/tertiary_buttons.png?r=WDV1.01") no-repeat 0px 0px; cursor: default;
+}
+.LightningLabelButtonVericalListRemoveFolder {
+	background: url("../images/icon/tertiary_buttons.png?r=WDV1.01") no-repeat -320px 0px;
+}
+.LightningLabelButtonVericalListRemoveFolder:hover {
+	background: url("../images/icon/tertiary_buttons.png?r=WDV1.01") no-repeat -320px -30px;
+}
+.gray_out.LightningLabelButtonVericalListRemoveFolder {
+	background: url("../images/icon/tertiary_buttons.png?r=WDV1.01") no-repeat -320px 0px; cursor: default;
+}
+.LightningLabelButtonVericalListAddUser {
+	background: url("../images/icon/tertiary_buttons.png?r=WDV1.01") no-repeat -240px 0px;
+}
+.LightningLabelButtonVericalListAddUser:hover {
+	background: url("../images/icon/tertiary_buttons.png?r=WDV1.01") no-repeat -240px -30px;
+}
+.LightningLabelButtonVericalListRemoveUser {
+	background: url("../images/icon/tertiary_buttons.png?r=WDV1.01") no-repeat -560px 0px;
+}
+.LightningLabelButtonVericalListRemoveUser:hover {
+	background: url("../images/icon/tertiary_buttons.png?r=WDV1.01") no-repeat -560px -30px;
+}
+.gray_out.LightningLabelButtonVericalListRemoveUser {
+	background: url("../images/icon/tertiary_buttons.png?r=WDV1.01") no-repeat -560px 0px; cursor: default;
+}
+.LightningLabelButtonVericalListAddGroup {
+	background: url("../images/VerticalListButtons/ButtonVerticalListAddMUsersUp.png?r=WDV1.01") no-repeat;
+}
+.LightningLabelButtonVericalListAddGroup:hover {
+	background: url("../images/VerticalListButtons/ButtonVerticalListAddMUsersOver.png?r=WDV1.01") no-repeat;
+}
+.LightningLabelButtonVericalListRemoveGroup {
+	background: url("../images/VerticalListButtons/ButtonVerticalListRemoveMUsersUp.png?r=WDV1.01") no-repeat;
+}
+.LightningLabelButtonVericalListRemoveGroup:hover {
+	background: url("../images/VerticalListButtons/ButtonVerticalListRemoveMUsersOver.png?r=WDV1.01") no-repeat;
+}
+.gray_out.LightningLabelButtonVericalListRemoveGroup {
+	background: url("../images/VerticalListButtons/ButtonVerticalListRemoveMUsersUp.png?r=WDV1.01") no-repeat; cursor: default;
+}
+.LightningLabelButtonVericalListAddMUser {
+	background: url("../images/VerticalListButtons/ButtonVerticalListAddMUsersUp.png?r=WDV1.01") no-repeat;
+}
+.LightningLabelButtonVericalListAddMUser:hover {
+	background: url("../images/VerticalListButtons/ButtonVerticalListAddMUsersOver.png?r=WDV1.01") no-repeat;
+}
+.LightningLabelButtonVericalListAppsInstalled {
+	background: url("/web/images/button/apps/ButtonVerticalList_AddApplications_Up.png?r=WDV1.01") no-repeat;
+}
+.LightningLabelButtonVericalListAppsInstalled:hover {
+	background: url("/web/images/button/apps/ButtonVerticalList_AddApplications_Over.png?r=WDV1.01") no-repeat;
+}
+.gray_out.LightningLabelButtonVericalListAppsInstalled {
+	background: url("/web/images/button/apps/ButtonVerticalList_AddApplications_Up.png?r=WDV1.01") no-repeat; cursor: default;
+}
+.LightningLabelButtonVericalListAppsDel {
+	background: url("/web/images/button/apps/ButtonVerticalList_RemoveApplications_Up.png?r=WDV1.01") no-repeat;
+}
+.LightningLabelButtonVericalListAppsDel:hover {
+	background: url("/web/images/button/apps/ButtonVerticalList_RemoveApplications_Over.png?r=WDV1.01") no-repeat;
+}
+.gray_out.LightningLabelButtonVericalListAppsDel {
+	background: url("/web/images/button/apps/ButtonVerticalList_RemoveApplications_Up.png?r=WDV1.01") no-repeat; cursor: default;
+}
+.LightningButtonRunPlay {
+	background: url("/web/images/button/button_play_normal.png?r=WDV1.01") no-repeat; width: 24px; height: 24px; cursor: pointer;
+}
+.LightningButtonRunPlay:hover {
+	background: url("/web/images/button/button_play_selected.png?r=WDV1.01") no-repeat; width: 24px; height: 24px; cursor: pointer;
+}
+.SaveButton {
+	visibility: hidden;
+}
+.visibility_hidden {
+	visibility: hidden;
+}
+.HU-HU #users_user_button {
+	padding: 0px; width: 110px;
+}
+.HU-HU #users_group_button {
+	padding: 0px; width: 94px;
+}
+.PL-PL #users_user_button {
+	padding: 0px; width: 110px;
+}
+.PL-PL #users_group_button {
+	padding: 0px; width: 94px;
+}
+.RU-RU #users_user_button {
+	padding: 0px; width: 110px;
+}
+.RU-RU #users_group_button {
+	padding: 0px; width: 94px;
+}

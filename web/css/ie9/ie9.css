@@ -1,0 +1,49 @@
+﻿     	#non_supported_browser {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: block !important;
+            width: auto;
+            height: auto;
+            background rgb(75, 90, 104);
+            background: rgba(75, 90, 104, .6);
+        }
+
+        #non_supported_browser_container {
+            width: 480px;
+            margin: 130px auto 0;
+            padding: 20px;
+            border: 1px solid #E6E6E6;
+            background-color: #eee;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#ececec));
+            background-image: -webkit-linear-gradient(top, #f0f0f0, #ececec);
+            background-image: -moz-linear-gradient(top, #f0f0f0, #ececec);
+            background-image: -ms-linear-gradient(top, #f0f0f0, #ececec);
+            background-image: linear-gradient(top, #f0f0f0, #ececec);
+            filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f0f0f0', EndColorStr='#ececec');
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        #non_supported_browser_header {
+            font-size: 20px;
+            color: #4B5A68;
+            margin-bottom: 14px;
+        }
+
+        #non_supported_browser_content {
+            padding: 20px;
+            background: #FAFAFA;
+        }
+
+        #non_supported_browser_content p {
+            padding: 0;
+            margin: 0;
+        }
+        
+        #non_supported_browser_content p:last-child {
+            padding: 0;
+            margin: 14px 0 0;
+        }

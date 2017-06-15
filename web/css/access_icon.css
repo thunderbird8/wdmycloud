@@ -1,0 +1,807 @@
+.ListDiv li {
+	width: 660px; height: 60px; line-height: 60px; padding-right: 20px; padding-left: 20px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.ListDiv li:nth-child(2n) {
+	background: rgb(220, 220, 220);
+}
+.ListDiv .isoshare {
+	width: 520px;
+}
+.ListDiv li .usericon {
+	background: url("../images/icon/NAS_icn_VerticalNavList_user_up.png?r=20150204") no-repeat -6px; width: 20px; height: 20px; margin-top: 18px; float: left;
+}
+.ListDiv li .adminicon {
+	background: url("../images/icon/IconVerticalListAdmin2Up.png?r=20150204") no-repeat; width: 20px; height: 24px; margin-top: 18px; float: left;
+}
+.ListDiv li .icon {
+	background: url("../images/icon/NAS_icn_row_folder_up.png?r=20150204") no-repeat; width: 30px; height: 30px; margin-top: 15px; float: left; cursor: default;
+}
+.ListDiv li .ISOname {
+	width: 210px; height: 60px; line-height: 60px; overflow: hidden; padding-left: 10px; font-size: 14px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.ListDiv li .name {
+	width: 270px; height: 60px; line-height: 60px; overflow: hidden; padding-left: 10px; font-size: 14px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.ListDiv li .sname {
+	width: 250px; height: 50px; overflow: hidden; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.ListDiv li .iso_sname {
+	width: 450px; height: 50px; overflow: hidden; padding-left: 10px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.ListDiv li .img {
+	width: 200px; height: 40px; padding-top: 15px; float: left;
+}
+.ListDiv li.gray_out div.img a {
+	cursor: default;
+}
+.gray_out#mask_id .ListDiv li div.img a {
+	cursor: default;
+}
+.ListDiv li .img a {
+	cursor: pointer;
+}
+.ListDiv li .access {
+	width: 160px; height: 50px; text-align: right; font-size: 14px; float: right;
+}
+.ListDiv li .access2 {
+	height: 50px; float: left;
+}
+.ListDiv li .detail {
+	background: url("../images/icon/BackupJobDetail.png?r=20150204") 0% 0% / 30px 30px; width: 30px; height: 30px; margin-top: 15px; margin-left: 15px; float: left; cursor: pointer;
+}
+.ListDiv li .detail:hover {
+	background: url("../images/icon/BackupJobDetailHover.png?r=20150204") 0% 0% / 30px 30px; width: 30px; height: 30px; float: left; cursor: pointer;
+}
+.ListDiv li .sedit {
+	background: url("../images/icon/ButtonEdit.png?r=20150204") 0% 0% / 30px 30px; width: 30px; height: 30px; margin-top: 15px; margin-left: 15px; float: left; cursor: pointer;
+}
+.ListDiv li .sedit:hover {
+	background: url("../images/icon/ButtonEditHover.png?r=20150204") 0% 0% / 30px 30px;
+}
+.ListDiv li .sdel {
+	background: url("../images/icon/BackupDelete.png?r=20150204"); width: 30px; height: 30px; margin-top: 15px; margin-left: 15px; float: left; cursor: pointer;
+}
+.ListDiv li .sdel:hover {
+	background: url("../images/icon/BackupDeleteHover.png?r=20150204"); width: 30px; height: 30px;
+}
+.rwDown {
+	background: url("../images/AccessPermission/ButtonPermissionsReadWriteDown.png?r=20150204"); width: 62px; height: 30px; display: block;
+}
+.rwUp {
+	background: url("../images/AccessPermission/ButtonPermissionsReadWriteUp.png?r=20150204"); width: 62px; height: 30px; display: block;
+}
+.rwUp:hover {
+	background: url("../images/AccessPermission/ButtonPermissionsReadWriteOver.png?r=20150204");
+}
+.rDown {
+	background: url("../images/AccessPermission/ButtonPermissionsReadOnlyDown.png?r=20150204"); width: 62px; height: 30px; display: block;
+}
+.rUp {
+	background: url("../images/AccessPermission/ButtonPermissionsReadOnlyUp.png?r=20150204"); width: 62px; height: 30px; display: block;
+}
+.rUp:hover {
+	background: url("../images/AccessPermission/ButtonPermissionsReadOnlyOver.png?r=20150204");
+}
+.dDown {
+	background: url("../images/AccessPermission/ButtonPermissionsNoneDown.png?r=20150204"); width: 62px; height: 30px; display: block;
+}
+.dUp {
+	background: url("../images/AccessPermission/ButtonPermissionsNoneUp.png?r=20150204"); width: 62px; height: 30px; display: block;
+}
+.dUp:hover {
+	background: url("../images/AccessPermission/ButtonPermissionsNoneOver.png?r=20150204");
+}
+.gray_out .rwUp {
+	background: url("../images/AccessPermission/ButtonPermissionsReadWriteUp.png?r=20150204"); width: 62px; height: 30px; display: block;
+}
+.gray_out .rUp {
+	background: url("../images/AccessPermission/ButtonPermissionsReadOnlyUp.png?r=20150204"); width: 62px; height: 30px; display: block;
+}
+.gray_out .dUp {
+	background: url("../images/AccessPermission/ButtonPermissionsNoneUp.png?r=20150204"); width: 62px; height: 30px; display: block;
+}
+.gray_out .rUp {
+	cursor: default;
+}
+.gray_out .rwDown {
+	cursor: default;
+}
+.gray_out .dUp {
+	cursor: default;
+}
+.gray_out div .img {
+	cursor: default;
+}
+.ListDiv .isoshare .img .rDown {
+	background: url("../images/AccessPermission/ButtonPermissionsReadOnlyDown.png?r=20150204"); width: 62px; height: 30px; display: block;
+}
+.ListDiv .isoshare .img .rUp {
+	background: url("../images/AccessPermission/ButtonPermissionsReadOnlyUp.png?r=20150204"); width: 62px; height: 30px; display: block;
+}
+.ListDiv .isoshare .img .rUp:hover {
+	background: url("../images/AccessPermission/ButtonPermissionsReadOnlyOver.png?r=20150204");
+}
+.img a {
+	float: left;
+}
+.device_active {
+	margin-left: -40px;
+}
+.device_active li {
+	width: 540px; height: 42px;
+}
+.device_active li .div1_cpu {
+	background: url("../images/icon/activityicon_cpu.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div1_memory {
+	background: url("../images/icon/activityicon_memory.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div1_network {
+	background: url("../images/icon/activityicon_network.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div1_process {
+	background: url("../images/icon/activityicon_processes.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div2 {
+	width: 200px; height: 42px; float: left;
+}
+.device_active li .div3 {
+	background: url("../images/icon/deviceactivitymeter_000.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div3_no {
+	background-position: center; width: 20px; height: 42px; float: left;
+}
+.device_active li .div3_0 {
+	background: url("../images/icon/deviceactivitymeter_000.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div3_1 {
+	background: url("../images/icon/deviceactivitymeter_020.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div3_2 {
+	background: url("../images/icon/deviceactivitymeter_020.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div3_3 {
+	background: url("../images/icon/deviceactivitymeter_030.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div3_4 {
+	background: url("../images/icon/deviceactivitymeter_030.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div3_5 {
+	background: url("../images/icon/deviceactivitymeter_050.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div3_6 {
+	background: url("../images/icon/deviceactivitymeter_060.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div3_7 {
+	background: url("../images/icon/deviceactivitymeter_075.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div3_8 {
+	background: url("../images/icon/deviceactivitymeter_075.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div3_9 {
+	background: url("../images/icon/deviceactivitymeter_075.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div3_10 {
+	background: url("../images/icon/deviceactivitymeter_100.png?r=20150204") no-repeat center; width: 50px; height: 42px; float: left;
+}
+.device_active li .div4 {
+	width: 200px; height: 42px; float: left;
+}
+.device_active li .div4_no {
+	width: 230px; height: 42px; line-height: 42px; float: left;
+}
+.device_active li .div5 {
+	background: url("../images/icon/IconListDropdownNotificationsGoArrowUp.png?r=20150204") no-repeat center; top: 6px; width: 30px; height: 30px; right: -50px; float: left; position: relative; cursor: pointer;
+}
+.device_active li .div5:hover {
+	background: url("../images/icon/IconListDropdownNotificationsGoArrowDown.png?r=20150204") no-repeat center;
+}
+.rsListDiv {
+	margin-top: 0px;
+}
+.rsListDiv li {
+	width: 560px; height: 30px; line-height: 30px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.rsListDiv li:nth-child(2n) {
+	background-color: rgb(220, 220, 220);
+}
+.rsListDiv li .sel {
+	width: 40px; height: 25px; padding-top: 5px; padding-left: 15px; float: left;
+}
+.rsListDiv li .name {
+	width: 240px; height: 30px; float: left;
+}
+.rsListDiv li .size {
+	width: 180px; height: 30px; padding-left: 60px; float: right;
+}
+.sListDiv {
+	margin-top: 0px;
+}
+.sListDiv li {
+	width: 500px; height: 30px; line-height: 30px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.sListDiv li:nth-child(2n) {
+	background-color: rgb(220, 220, 220);
+}
+.sListDiv li .sel {
+	width: 40px; height: 25px; padding-top: 5px; padding-left: 15px; float: left;
+}
+.sListDiv li .name {
+	width: 350px; height: 30px; overflow: hidden; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.sListDiv li .img {
+	width: 200px; height: 40px; padding-top: 10px; float: left; cursor: pointer;
+}
+.pListDiv li {
+	width: 500px; height: 43px; line-height: 43px; margin-left: -40px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.pListDiv li:nth-child(2n) {
+	background: rgb(220, 220, 220);
+}
+.pListDiv li .div1 {
+	background: url("/web/images/icon/Icon_Calendar_blue_32x32.png?r=20150204") no-repeat center / 30px 30px; width: 50px; height: 43px; float: left;
+}
+.pListDiv li .div2 {
+	width: 110px; height: 30px; float: left;
+}
+.pListDiv li .div3 {
+	width: 290px; height: 30px; float: left;
+}
+.pListDiv li .div4 {
+	width: 40px; height: 30px; vertical-align: middle; float: left; cursor: pointer;
+}
+.iListDiv li {
+	width: 550px; height: 40px; line-height: 40px; margin-left: -45px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.iListDiv li:nth-child(2n) {
+	background: rgb(220, 220, 220);
+}
+.iListDiv li .icon {
+	width: 30px; height: 30px; float: left; cursor: default;
+}
+.ok {
+	background: url("../images/icon/tick.png?r=20150204") no-repeat center; width: 30px; height: 30px; padding-top: 10px; padding-left: 10px; display: block;
+}
+.warning {
+	background: url("../images/icon/warning.png?r=20150204") no-repeat center; width: 30px; height: 30px; padding-top: 10px; padding-left: 10px; display: block;
+}
+.ng {
+	background: url("../images/icon/icon-close.png?r=20150204") no-repeat center; width: 30px; height: 30px; padding-top: 10px; padding-left: 10px; display: block;
+}
+.iListDiv li .uname {
+	width: 200px; height: 30px; padding-left: 10px; float: left;
+}
+.iListDiv li .pw {
+	width: 150px; height: 30px; float: left;
+}
+.iListDiv li .quota {
+	width: 160px; height: 30px; float: left;
+}
+.iListDiv li .data {
+	width: 30px; height: 30px; padding-right: 20px; float: right;
+}
+.info_icon {
+	background: url("../images/icon/IconListDropdownNotificationsGoArrowUp.png?r=20150204") no-repeat center; width: 30px; height: 30px; padding-top: 10px; display: block; cursor: pointer;
+}
+.info_icon:hover {
+	background: url("../images/icon/IconListDropdownNotificationsGoArrowDown.png?r=20150204") no-repeat center; width: 30px; height: 30px; display: block; cursor: pointer;
+}
+.error_color {
+	
+}
+.bListDiv li {
+	width: 550px; height: 40px; line-height: 40px; margin-left: -40px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.bListDiv li:nth-child(2n) {
+	background: rgb(220, 220, 220);
+}
+.bListDiv li .icon {
+	background: url("../images/icon/NAS_icn_VerticalNavList_user_up.png?r=20150204") no-repeat -6px; width: 30px; height: 30px; margin-top: 6px; margin-left: 15px; float: left; cursor: default;
+}
+.bListDiv li .name {
+	width: 150px; height: 40px; padding-left: 5px; float: left;
+}
+.bListDiv li .addStatus {
+	height: 40px; line-height: 40px; float: left;
+}
+.nListDiv li {
+	width: 600px; height: 50px; margin-left: -40px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.nListDiv li:nth-child(2n) {
+	background: rgb(220, 220, 220);
+}
+.nListDiv li .div1 {
+	background: url("../images/icon/IconDialogueSettingsNTP1.png?r=20150204") no-repeat center; width: 50px; height: 50px; float: left;
+}
+.nListDiv li .div2 {
+	width: 300px; height: 50px; line-height: 50px; vertical-align: middle; float: left; display: table-cell;
+}
+.nListDiv li .div2_input {
+	width: 300px; height: 40px; margin-top: 8px; float: left;
+}
+.nListDiv li .div3 {
+	width: 220px; bottom: -15px; float: left; position: relative;
+}
+.nListDiv li .div4 {
+	width: 30px; height: 50px; vertical-align: middle; float: left; display: inline-block;
+}
+.dListDiv li {
+	width: 500px; height: 30px; line-height: 30px; margin-left: -40px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.dListDiv li:nth-child(2n) {
+	background-color: rgb(220, 220, 220);
+}
+.dListDiv li .local_name {
+	width: 150px; height: 30px; padding-left: 20px; float: left;
+}
+.dListDiv li .host {
+	width: 250px; height: 30px; padding-left: 20px; float: left;
+}
+.dListDiv li .remote_folder {
+	width: 150px; height: 30px; padding-left: 20px; float: left;
+}
+.dListDiv li a.edit_icon {
+	background: url("../images/icon/ButtonEditUp_12x18.png?r=20150204") no-repeat; width: 18px; height: 18px; margin-top: 6px; float: left; display: block; cursor: pointer;
+}
+.dListDiv li a.edit_icon:hover {
+	background: url("../images/icon/ButtonEditOver.png?r=20150204") no-repeat; width: 18px; height: 18px; float: left; display: block; cursor: pointer;
+}
+.dListDiv li a.del_icon {
+	background: url("../images/icon/IconListDropdownNotificationsDeleteUp.png?r=20150204") no-repeat; width: 18px; height: 18px; margin-top: 6px; margin-left: 5px; float: left; display: block; cursor: pointer;
+}
+.dListDiv li a.del_icon:hover {
+	background: url("../images/icon/IconListDropdownNotificationsDeleteDown.png?r=20150204") no-repeat; width: 18px; height: 18px; margin-left: 5px; float: left; display: block; cursor: pointer;
+}
+.mListDiv li {
+	width: 660px; height: 50px; margin-left: -40px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.mListDiv li:nth-child(2n) {
+	background: rgb(220, 220, 220);
+}
+.mListDiv li .div1 {
+	width: 500px; line-height: 50px; padding-left: 10px; float: left;
+}
+.mListDiv li .div1_input {
+	width: 500px; height: 50px; padding-left: 10px; margin-top: 8px; float: left;
+}
+.mListDiv li .div2 {
+	width: 100px; line-height: 50px; vertical-align: middle; float: right; display: table-cell;
+}
+.RU-RU .mListDiv li .div2 {
+	padding-right: 20px;
+}
+.FR-FR .mListDiv li .div2 {
+	padding-right: 20px;
+}
+.DE-DE .mListDiv li .div2 {
+	padding-right: 20px;
+}
+.mListDiv li .div3 {
+	width: 180px; height: 50px; float: left; display: inline-block;
+}
+.mListDiv li .div4 {
+	width: 50px; height: 50px; vertical-align: middle; float: left; display: inline-block;
+}
+.uListDiv li {
+	width: 530px; height: 40px; line-height: 40px; margin-left: -40px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.uListDiv li:nth-child(2n) {
+	background: rgb(220, 220, 220);
+}
+.uListDiv li .chkbox {
+	width: 30px; height: 24px; padding-top: 11px; padding-left: 10px; float: left;
+}
+.uListDiv li .username {
+	width: 160px; height: 40px; overflow: hidden; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.uListDiv li .email {
+	width: 290px; height: 40px; overflow: hidden; padding-left: 10px; font-style: italic; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+#batch_group_list_div .uListDiv .username {
+	width: 250px; height: 40px; overflow: hidden; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.qListDiv li {
+	width: 570px; height: 42px; line-height: 42px; margin-left: -40px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.qListDiv li:nth-child(2n) {
+	background-color: rgb(220, 220, 220);
+}
+.qListDiv li .vinfo {
+	width: 200px; height: 42px; overflow: hidden; margin-left: 20px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.qListDiv li .quota {
+	width: 220px; height: 32px; margin-top: 8px; margin-left: 10px; float: left;
+}
+.qListDiv li .unit {
+	width: 80px; height: 42px; margin-left: 10px; float: left;
+}
+.proListDiv li {
+	width: 740px; height: 30px; line-height: 30px; margin-left: -40px; list-style-type: none; background-color: rgb(236, 236, 236);
+}
+br + .proListDiv li {
+	background: rgb(240, 240, 240);
+}
+:not(.proListTitleBar).proListDiv li:nth-child(2n) {
+	background: rgb(220, 220, 220);
+}
+.proListDiv li .div1 {
+	width: 315px; height: 30px; padding-left: 10px; float: left;
+}
+.proListDiv li .div2 {
+	width: 185px; height: 30px; overflow: hidden; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.proListDiv li .div3 {
+	width: 230px; height: 30px; overflow: hidden; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.remoteListDiv li {
+	width: 695px; height: 42px; line-height: 42px; margin-left: -40px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.remoteListDiv li:nth-child(2n) {
+	background: rgb(220, 220, 220);
+}
+.remoteListDiv li .rok {
+	background: url("/web/images/flexigrid/status_ok.png?r=20150204") no-repeat center; width: 24px; height: 24px; margin-top: 7px; float: left;
+}
+.remoteListDiv li .rng {
+	background: url("/web/images/flexigrid/status_fail.png?r=20150204") no-repeat center; width: 24px; height: 24px; margin-top: 7px; float: left;
+}
+.remoteListDiv li .rnone {
+	width: 24px; height: 24px; margin-top: 7px; float: left;
+}
+.remoteListDiv li .ricon {
+	background: url("../images/icon/IconDialogueWindowSetupTimeMachine24x24.png?r=20150204") no-repeat center; width: 42px; height: 42px; float: left;
+}
+.remoteListDiv li .rname {
+	width: 125px; height: 42px; overflow: hidden; padding-left: 10px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.remoteListDiv li .rip {
+	width: 95px; height: 42px; overflow: hidden; margin-left: 10px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.remoteListDiv li .rsize {
+	width: 70px; height: 42px; overflow: hidden; margin-left: 10px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.remoteListDiv li .rdetailIcon {
+	width: 30px; height: 30px; margin-top: 5px; margin-left: 10px; float: left; display: inline-block; cursor: pointer; background-image: url("/web/images/icon/BackupJobDetail.png?r=20150204");
+}
+.remoteListDiv li .rdetailIcon:hover {
+	width: 30px; height: 30px; margin-top: 5px; margin-left: 10px; float: left; display: inline-block; cursor: pointer; background-image: url("/web/images/icon/BackupJobDetailHover.png?r=20150204");
+}
+.remoteListDiv li .rrcovery {
+	width: 80px; height: 42px; overflow: hidden; margin-left: 10px; float: left; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.remoteListDiv li .rbackupIcon {
+	width: 30px; height: 30px; margin-top: 5px; margin-left: 10px; float: left; display: inline-block; cursor: pointer; background-image: url("/web/images/icon/start.png?r=20150204");
+}
+.remoteListDiv li .rbackupIcon:hover {
+	width: 30px; height: 30px; margin-top: 5px; margin-left: 10px; float: left; display: inline-block; cursor: pointer; background-image: url("/web/images/icon/startHover.png?r=20150204");
+}
+.remoteListDiv li .rrecoverIcon {
+	width: 30px; height: 30px; margin-top: 5px; margin-left: 10px; float: left; display: inline-block; cursor: pointer; background-image: url("/web/images/wfs/download_n.png?r=20150204");
+}
+.remoteListDiv li .rrecoverIcon:hover {
+	width: 30px; height: 30px; margin-top: 5px; margin-left: 10px; float: left; display: inline-block; cursor: pointer; background-image: url("/web/images/wfs/download_f.png?r=20150204");
+}
+.remoteListDiv li .rstopIcon {
+	width: 30px; height: 30px; margin-top: 5px; margin-left: 10px; float: left; display: inline-block; cursor: pointer; background-image: url("/web/images/icon/button_pause.png?r=20150204");
+}
+.remoteListDiv li .rstopIcon:hover {
+	width: 30px; height: 30px; margin-top: 5px; margin-left: 10px; float: left; display: inline-block; cursor: pointer; background-image: url("/web/images/icon/button_pauseHover.png?r=20150204");
+}
+.remoteListDiv li .rdelIcon {
+	width: 30px; height: 30px; margin-top: 5px; margin-left: 10px; float: left; display: inline-block; cursor: pointer; background-image: url("/web/images/icon/BackupDelete.png?r=20150204");
+}
+.remoteListDiv li .rdelIcon:hover {
+	width: 30px; height: 30px; margin-top: 5px; margin-left: 10px; float: left; display: inline-block; cursor: pointer; background-image: url("/web/images/icon/BackupDeleteHover.png?r=20150204");
+}
+.remoteListDiv li .rstate {
+	width: 265px; height: 42px; margin-left: 10px; float: left;
+}
+.remoteListDiv li .rpercent {
+	width: 40px; height: 25px; font-size: 12px; margin-top: 4px; margin-left: 10px; float: left;
+}
+.devListDiv {
+	margin-left: -40px;
+}
+.devListDiv li {
+	width: 845px; height: 45px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.devListDiv li:nth-child(2n) {
+	background: rgb(220, 220, 220);
+}
+.devListDiv .fullName {
+	width: 250px; height: 40px; line-height: 40px; overflow: hidden; margin-left: 10px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.devListDiv .emailInfo {
+	width: 500px; height: 40px; line-height: 40px; margin-left: 10px; float: left;
+}
+.devListDiv .accountName {
+	height: 40px; margin-top: 7px; margin-left: 10px; float: left;
+}
+.devListDiv .firstName {
+	height: 40px; margin-top: 7px; margin-left: 10px; float: left;
+}
+.devListDiv .lastName {
+	height: 40px; margin-top: 7px; margin-left: 10px; float: left;
+}
+.devListDiv .email {
+	height: 40px; margin-top: 7px; margin-left: 10px; float: left;
+}
+.devListDiv .saveButton {
+	margin-top: 7px; margin-left: 10px; float: left;
+}
+.CloudUserListDiv {
+	margin-top: 20px; margin-left: -40px;
+}
+.CloudUserListDiv li {
+	width: 680px; height: 50px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.CloudUserListDiv li:nth-child(2n) {
+	background: rgb(220, 220, 220);
+}
+.CloudUserListDiv .cloudIcon {
+	background: url("/web/images/icon/NAS_icn_row_user_up.png?r=20150204") no-repeat center 0px; top: 10px; width: 30px; height: 30px; margin-right: 5px; margin-left: 15px; float: left; position: relative;
+}
+.CloudUserListDiv .mobile_icon {
+	width: 30px; height: 30px; margin-top: 10px; margin-left: 10px; float: left;
+}
+.CloudUserListDiv .mobile_access_iphone_icon {
+	background: url("/web/images/icon/NAS_icn_row_device_phone_up.png?r=20150204") no-repeat center 0px;
+}
+.CloudUserListDiv .mobile_access_ipod_icon {
+	background: url("/web/images/icon/NAS_icn_row_device_phone_up.png?r=20150204") no-repeat center 0px;
+}
+.CloudUserListDiv .mobile_access_ipad_icon {
+	background: url("/web/images/icon/NAS_icn_row_device_tablet_up.png?r=20150204") no-repeat center 0px;
+}
+.CloudUserListDiv .mobile_access_android_phone_icon {
+	background: url("/web/images/icon/NAS_icn_row_device_phone_up.png?r=20150204") no-repeat center 0px;
+}
+.CloudUserListDiv .mobile_access_android_tablet_icon {
+	background: url("/web/images/icon/NAS_icn_row_device_tablet_up.png?r=20150204") no-repeat center 0px;
+}
+.CloudUserListDiv .mobile_access_computer_icon {
+	background: url("/web/images/icon/IconCLoudAccessComputerLaptop.png?r=20150204") no-repeat center 0px;
+}
+.CloudUserListDiv .mobile_access_generic_phone_icon {
+	background: url("/web/images/icon/NAS_icn_row_device_phone_up.png?r=20150204") no-repeat center 0px;
+}
+.CloudUserListDiv .mobile_access_unknown_device_icon {
+	background: url("/web/images/icon/NAS_icn_row_device_tablet_up.png?r=20150204") no-repeat;
+}
+.CloudUserListDiv .mobile_access_application_icon {
+	width: 120px; height: 24px; padding-top: 4px; padding-left: 34px; margin-top: 14px; margin-left: 20px; float: left;
+}
+.CloudUserListDiv .mobile_access_wdphotos_icon {
+	background: url("/web/images/icon/cloud/WDPhotos_Icon_24x24.png?r=20150204") no-repeat 0% 0% / 24px 24px;
+}
+.CloudUserListDiv .mobile_access_wd2gopro_icon {
+	background: url("/web/images/icon/cloud/WD2goPro_Icon_24x24.png?r=20150204") no-repeat 0% 0% / 24px 24px;
+}
+.CloudUserListDiv .mobile_access_wd2go_icon {
+	background: url("/web/images/icon/cloud/IconWDMyCloudMobile.png?r=20150204") no-repeat 0% 0% / 24px 24px;
+}
+.CloudUserListDiv .mobile_access_wdcloud_icon {
+	background: url("/web/images/icon/cloud/IconWDCloudMobile.png?r=20150204") no-repeat 0% 0% / 24px 24px;
+}
+.CloudUserListDiv .mobile_access_wdsync_icon {
+	background: url("/web/images/icon/cloud/IconWDSync.png?r=20150519") no-repeat 0% 0% / 24px 24px;
+}
+.CloudUserListDiv .mobile_access_unknown_icon {
+	background: url("/web/images/icon/cloud/Icon_QuestionMark_16x16.png?r=20150204") no-repeat 0% 0% / 16px 16px;
+}
+.CloudUserListDiv .dac_connected {
+	width: 110px; overflow: hidden; margin-top: 17px; margin-left: 20px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.CloudUserListDiv .email {
+	width: 300px; overflow: hidden; margin-top: 17px; margin-left: 20px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.CloudUserListDiv .desc {
+	width: 165px; overflow: hidden; margin-top: 17px; margin-left: 10px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.CloudUserListDiv .timeInfo {
+	width: 350px; overflow: hidden; font-size: 13px; margin-top: 7px; margin-left: 20px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.CloudUserListDiv .timeInfo_x1 {
+	width: 250px; font-size: 11px; margin-top: 7px; margin-left: 20px; float: left;
+}
+.CloudUserListDiv .emailIcon {
+	background: url("../images/icon/IconMyCloudWebEmailResendUp.png?r=20141013") no-repeat; width: 30px; height: 30px; margin-top: 12px; margin-right: 15px; float: right; cursor: pointer;
+}
+.CloudUserListDiv .emailIcon:hover {
+	background: url("../images/icon/IconMyCloudWebEmailResendDown.png?r=20141013") no-repeat; width: 30px; height: 30px; margin-top: 12px; margin-right: 15px; float: right;
+}
+.gray_out.emailIcon {
+	background: url("../images/icon/IconMyCloudWebEmailResendUp.png?r=20141013") no-repeat; width: 30px; height: 30px; margin-top: 12px; margin-right: 15px; float: right; cursor: default;
+}
+.gray_out.emailIcon:hover {
+	background: url("../images/icon/IconMyCloudWebEmailResendUp.png?r=20141013") no-repeat; width: 30px; height: 30px; margin-top: 12px; margin-right: 15px; float: right; cursor: default;
+}
+.CloudUserListDiv .edit {
+	background: url("../images/icon/ButtonEdit.png?r=20150204"); width: 30px; height: 30px; margin-top: 10px; margin-right: 15px; float: right; cursor: pointer;
+}
+.CloudUserListDiv .edit:hover {
+	background: url("../images/icon/ButtonEditHover.png?r=20150204"); width: 30px; height: 30px; margin-top: 10px; float: right;
+}
+.CloudUserListDiv .edit.gray_out:hover {
+	background: url("../images/icon/ButtonEdit.png?r=20150204"); width: 30px; height: 30px; margin-top: 10px; margin-right: 15px; float: right; cursor: default;
+}
+.CloudUserListDiv .delIcon {
+	background: url("../images/icon/BackupDelete.png?r=20150204"); width: 30px; height: 30px; margin-top: 9px; margin-right: 15px; float: right; cursor: pointer;
+}
+.CloudUserListDiv .delIcon:hover {
+	background: url("../images/icon/BackupDeleteHover.png?r=20150204");
+}
+.gray_out.delIcon {
+	background: url("../images/icon/BackupDelete.png?r=20150204"); cursor: default;
+}
+.gray_out.delIcon:hover {
+	background: url("../images/icon/BackupDelete.png?r=20150204"); cursor: default;
+}
+.CloudUserListDiv .mobile_access_unexpired_dac_icon {
+	background: url("../images/icon/NAS_icn_row-cloud-services_active_up.png?r=20150204") no-repeat; width: 30px; height: 30px; margin-top: 10px; margin-right: 20px; float: right;
+}
+.CloudUserListDiv .mobile_access_new_dac_icon {
+	background: url("../images/icon/NAS_icn_row-cloud-services_active_up.png?r=20150204") no-repeat; width: 30px; height: 30px; margin-top: 10px; margin-right: 20px; float: right;
+}
+.CloudUserListDiv .mobile_access_expired_dac_icon {
+	background: url("../images/icon/NAS_icn_row-cloud-services_expired_up.png?r=20150204") no-repeat; width: 30px; height: 30px; margin-top: 10px; margin-right: 20px; float: right;
+}
+.sedit {
+	background: url("../images/icon/ButtonEditUp.png?r=20150204") 0% 0% / 12px 18px; width: 12px; height: 18px; float: left; cursor: pointer;
+}
+.sedit:hover {
+	background: url("../images/icon/ButtonEditOver.png?r=20150204") 0% 0% / 12px 18px;
+}
+.iscsiListDiv {
+	margin-top: 0px; margin-bottom: -10px; margin-left: -40px;
+}
+.iscsiListDiv li {
+	height: 30px; line-height: 30px; padding-top: 10px; padding-bottom: 10px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.iscsiListDiv li:nth-child(2n) {
+	background-color: rgb(220, 220, 220);
+}
+.iscsiListDiv li .chkbox {
+	width: 50px; height: 30px; margin-top: 10px; margin-left: 10px; float: left;
+}
+.iscsiListDiv li .iqn {
+	width: 500px; height: 30px; float: left;
+}
+.iscsiListDiv li .status {
+	width: 100px; height: 30px; overflow: hidden; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.iscsiListDiv li .acl {
+	width: 300px; height: 30px; margin-left: 10px; float: left;
+}
+.iscsiListDiv li .initiator {
+	width: 200px; height: 30px; float: left;
+}
+.iscsiListDiv li .rw {
+	width: 100px; height: 30px; float: left;
+}
+.iscsiListDiv li .name {
+	width: 200px; height: 30px; overflow: hidden; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.iscsiListDiv li .img {
+	width: 200px; height: 30px; float: left;
+}
+.iscsiListDiv li .access {
+	width: 150px; height: 30px; float: left;
+}
+.iscsiLUNListDiv {
+	margin-left: -40px;
+}
+.iscsiLUNListDiv li {
+	width: 540px; height: 30px; padding-top: 10px; padding-bottom: 10px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+.nowidth li {
+	width: 100%;
+}
+.iscsiLUNListDiv li:nth-child(2n) {
+	background: rgb(220, 220, 220);
+}
+.iscsiLUNListDiv li .chkbox {
+	width: 30px; height: 30px; line-height: 30px; margin-top: 10px; margin-left: 10px; float: left;
+}
+.iscsiLUNListDiv li .name {
+	width: 300px; height: 30px; line-height: 30px; float: left;
+}
+.iscsiLUNListDiv li .volume {
+	width: 100px; height: 30px; line-height: 30px; float: left;
+}
+.iscsiLUNListDiv li .size {
+	width: 100px; height: 30px; line-height: 30px; float: left;
+}
+.iscsiLUNListDiv li .status {
+	width: 270px; height: 30px; line-height: 30px; float: left;
+}
+.iscsiLUNListDiv li .icon {
+	width: 80px; height: 30px; line-height: 30px; float: left;
+}
+.iscsiLUNListDiv li .div_del {
+	width: 20px; height: 50px; vertical-align: middle; float: left; display: table-cell;
+}
+.LogListDiv {
+	margin-bottom: 0px; margin-left: -40px;
+}
+.LogListDiv li {
+	width: 922px; height: 40px; list-style-type: none; background-color: rgb(236, 236, 236);
+}
+.LogListDiv .level {
+	padding: 15px 0px 0px; width: 68px; height: 25px; font-size: 16px; margin-left: 10px; float: left; cursor: pointer;
+}
+.LogListDiv .time {
+	padding: 15px 0px 0px; width: 176px; height: 25px; font-size: 16px; float: left; cursor: pointer;
+}
+.LogListDiv .class {
+	padding: 15px 0px 0px; width: 99px; height: 25px; font-size: 16px; float: left; cursor: pointer;
+}
+.SV-SE .LogListDiv .class {
+	width: 108px;
+}
+.HU-HU .LogListDiv .class {
+	width: 103px;
+}
+.NB-NO .LogListDiv .class {
+	width: 103px;
+}
+.DE-DE .LogListDiv .class {
+	width: 103px;
+}
+.LogListDiv .log {
+	padding: 15px 0px 0px; width: 560px; height: 25px; font-size: 16px; float: left;
+}
+.SV-SE .LogListDiv .log {
+	width: 551px;
+}
+.HU-HU .LogListDiv .log {
+	width: 556px;
+}
+.NB-NO .LogListDiv .log {
+	width: 556px;
+}
+.DE-DE .LogListDiv .log {
+	width: 556px;
+}
+.DE-DE .LogListDiv li {
+	height: 55px;
+}
+.JA-JP .LogListDiv li {
+	height: 55px;
+}
+.FR-FR .LogListDiv li {
+	height: 55px;
+}
+.IT-IT .LogListDiv li {
+	height: 55px;
+}
+.TR-TR .LogListDiv li {
+	height: 55px;
+}
+.CS-CZ .LogListDiv li {
+	height: 55px;
+}
+.ES-ES .LogListDiv li {
+	height: 55px;
+}
+.PL-PL .LogListDiv li {
+	height: 55px;
+}
+.HU-HU .LogListDiv li {
+	height: 55px;
+}
+.NB-NO .LogListDiv li {
+	height: 55px;
+}
+.PT-BR .LogListDiv li {
+	height: 55px;
+}
+.SV-SE .LogListDiv li {
+	height: 55px;
+}
+.RU-RU .LogListDiv li {
+	height: 75px;
+}
+.device_active li .div2._text {
+	line-height: 42px; padding-left: 20px;
+}

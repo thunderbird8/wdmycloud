@@ -1,0 +1,180 @@
+.list_icon {
+	padding: 0px !important; overflow: visible !important;
+}
+.list_icon .TooltipIcon {
+	background: no-repeat !important; left: 0px; width: 18px; height: 18px; display: inline-block; position: relative;
+}
+.list_icon .TooltipIcon:hover {
+	background: no-repeat !important;
+}
+.list_icon div {
+	margin: 0px 5px; padding: 0px; width: 30px !important; height: 30px !important; float: left; cursor: pointer; background-repeat: no-repeat;
+}
+.list_icon .start {
+	background-image: url("/web/images/icon/start.png?r=20141006") !important;
+}
+.list_icon .start:hover {
+	background-image: url("/web/images/icon/startHover.png?r=20141006") !important;
+}
+.list_icon .stop {
+	background-image: url("/web/images/icon/button_pause.png?r=20140922") !important;
+}
+.list_icon .stop:hover {
+	background-image: url("/web/images/icon/button_pauseHover.png?r=20140922") !important;
+}
+.list_icon .edit {
+	background-image: url("/web/images/icon/ButtonEdit.png?r=20140922") !important;
+}
+.list_icon .edit:hover {
+	background-image: url("/web/images/icon/ButtonEditHover.png?r=20140922") !important;
+}
+.list_icon .del {
+	background-image: url("/web/images/icon/BackupDelete.png?r=20140922") !important;
+}
+.list_icon .del:hover {
+	background-image: url("/web/images/icon/BackupDeleteHover.png?r=20140922") !important;
+}
+.list_icon .detail {
+	background-image: url("/web/images/icon/BackupJobDetail.png?r=20140922") !important;
+}
+.list_icon .detail:hover {
+	background-image: url("/web/images/icon/BackupJobDetailHover.png?r=20140922") !important;
+}
+.list_icon .restore {
+	background-image: url("/web/images/wfs/icon_webfileviewer_refresh_n.png?r=20140922") !important;
+}
+.list_icon .restore:hover {
+	background-image: url("/web/images/wfs/icon_webfileviewer_refresh_f.png?r=20140922") !important;
+}
+.list_icon .ve_enable {
+	width: 24px !important; background-image: url("/web/images/RAID/raidstatusicon_encrypted_selected.png") !important;
+}
+.list_icon .ve_enable:hover {
+	width: 24px !important; background-image: url("/web/images/RAID/raidstatusicon_encrypted_selected.png") !important;
+}
+.list_icon .ve_disable {
+	width: 24px !important; background-image: url("/web/images/RAID/raidstatusicon_encrypted_normal.png") !important;
+}
+.list_icon .ve_disable:hover {
+	width: 24px !important; background-image: url("/web/images/RAID/raidstatusicon_encrypted_normal.png") !important;
+}
+.list_icon .ve_automount_disable {
+	width: 24px !important; background-image: url("/web/images/RAID/raidstatusicon_automount_normal.png") !important;
+}
+.list_icon .ve_automount_disable:hover {
+	width: 24px !important; background-image: url("/web/images/RAID/raidstatusicon_automount_normal.png") !important;
+}
+.list_icon .ve_automount_enable {
+	width: 24px !important; background-image: url("/web/images/RAID/raidstatusicon_automount_selected.png") !important;
+}
+.list_icon .ve_automount_enable:hover {
+	width: 24px !important; background-image: url("/web/images/RAID/raidstatusicon_automount_selected.png") !important;
+}
+.list_icon .passed {
+	background-image: url("/web/images/icon/tick.png");
+}
+.list_icon .passed:hover {
+	background-image: url("/web/images/icon/tick.png");
+}
+.list_icon .failed {
+	background-image: url("/web/images/icon/error.png"); background-size: 16px 16px !important;
+}
+.list_icon .failed:hover {
+	background-image: url("/web/images/icon/error.png"); background-size: 16px 16px !important;
+}
+.list_icon .download {
+	background-image: url("/web/images/IconDialogueWindowFirmwareUpdate.png") !important; background-size: 18px 18px !important;
+}
+.list_icon .download:hover {
+	background-image: url("/web/images/IconDialogueWindowFirmwareUpdate.png") !important; background-size: 18px 18px !important;
+}
+.list_icon_bar {
+	margin: 3px 0px 0px !important; padding: 0px !important; border: 0px currentColor; border-image: none; width: 260px; height: 4px !important; position: relative; background-color: rgb(200, 200, 200);
+}
+.list_icon_bar .bar_p {
+	margin: 0px !important; padding: 0px !important; width: 0%; height: 4px !important; background-color: rgb(21, 171, 255);
+}
+.list_bar_text {
+	padding: 0px !important; width: 260px; height: 14px; color: rgb(133, 147, 156); line-height: 14px; overflow: hidden !important; font-size: 12px !important; margin-top: 10px; -ms-text-overflow: ellipsis;
+}
+.list_bar_text.TooltipIcon {
+	left: 0px; height: 14px; display: inline-block; background-image: none !important;
+}
+.list_icon_bar_text {
+	padding-left: 5px !important; font-size: 12px;
+}
+.source_listDiv ul {
+	margin: 0px; padding: 0px;
+}
+.source_listDiv_empty ul {
+	margin: 0px; padding: 0px;
+}
+.dest_listDiv ul {
+	margin: 0px; padding: 0px;
+}
+.dest_listDiv_empty ul {
+	margin: 0px; padding: 0px;
+}
+.source_listDiv li {
+	background: rgb(240, 240, 240); border-width: 1px; border-style: solid; border-color: rgb(220, 220, 220) transparent rgb(255, 255, 255); border-image: none; width: 100%; height: 32px; color: rgb(75, 90, 104); line-height: 32px; list-style-type: none; box-sizing: border-box;
+}
+.source_listDiv_empty li {
+	background: rgb(240, 240, 240); border-width: 1px; border-style: solid; border-color: rgb(220, 220, 220) transparent rgb(255, 255, 255); border-image: none; width: 100%; height: 32px; color: rgb(75, 90, 104); line-height: 32px; list-style-type: none; box-sizing: border-box;
+}
+.dest_listDiv li {
+	background: rgb(240, 240, 240); border-width: 1px; border-style: solid; border-color: rgb(220, 220, 220) transparent rgb(255, 255, 255); border-image: none; width: 100%; height: 32px; color: rgb(75, 90, 104); line-height: 32px; list-style-type: none; box-sizing: border-box;
+}
+.dest_listDiv_empty li {
+	background: rgb(240, 240, 240); border-width: 1px; border-style: solid; border-color: rgb(220, 220, 220) transparent rgb(255, 255, 255); border-image: none; width: 100%; height: 32px; color: rgb(75, 90, 104); line-height: 32px; list-style-type: none; box-sizing: border-box;
+}
+.source_listDiv .TooltipIcon {
+	left: 0px; width: 350px; overflow: hidden; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 350px; background-image: none !important;
+}
+.dest_listDiv .TooltipIcon {
+	left: 0px; width: 350px; overflow: hidden; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 350px; background-image: none !important;
+}
+.source_listDiv li .select_text {
+	width: 350px; height: 30px; line-height: 30px; overflow: hidden; padding-left: 15px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.dest_listDiv li .select_text {
+	width: 350px; height: 30px; line-height: 30px; overflow: hidden; padding-left: 15px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+#restore_listDiv li {
+	width: 100%; height: 50px; line-height: 50px; list-style-type: none; background-color: rgb(240, 240, 240);
+}
+#restore_listDiv li:nth-child(2n) {
+	background-color: rgb(220, 220, 220);
+}
+#restore_listDiv li .dateTime {
+	width: 300px; height: 50px; overflow: hidden; padding-left: 20px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+#restore_listDiv li .btn {
+	height: 50px; padding-right: 20px; float: right; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+#restore_listDiv ul {
+	margin: 0px; padding: 0px;
+}
+#usb_dest_dir .TooltipIcon {
+	left: 0px; width: 350px; overflow: hidden; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 350px; background-image: none !important;
+}
+#usb_sour_dir .TooltipIcon {
+	left: 0px; width: 350px; overflow: hidden; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 350px; background-image: none !important;
+}
+#USB_Backup_Create .select_text {
+	width: 220px;
+}
+#internal_dest_dir .TooltipIcon {
+	left: 0px; width: 350px; overflow: hidden; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 350px; background-image: none !important;
+}
+#internal_sour_dir .TooltipIcon {
+	left: 0px; width: 350px; overflow: hidden; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 350px; background-image: none !important;
+}
+#Internal_Backup_Create .select_text {
+	width: 220px;
+}
+.list_icon .grayout {
+	cursor: text; opacity: 0.3;
+}
+.list_icon_bar_anim {
+	width: 250px; margin-top: 3px;
+}
